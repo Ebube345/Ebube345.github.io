@@ -22,10 +22,24 @@
 				width: 35% !important;
 
 			}
-			.major1{
+			@media only screen and (max-width: 600px) {
+			.spotlights > section > .image{
+				width: 100% !important;
+			}
+			.spotlights > section > .content{
+				width: 100% !important;
 
 			}
-
+			.langothers{
+				display: block !important;
+			}
+			.major1{
+				display: none !important;
+			}
+}
+			.tiles article::before{
+				opacity:0.05;
+			}
 		</style>
 	</head>
 	<body class="is-preload">
@@ -94,44 +108,38 @@
 																		</li>
 																		<li>NodeJS</li>
 																		<li>Express.Js</li>
-
 																	</ul>
 																</li>
 															</ul>
 														</header>
 							</article>
-							<article style="display: flex; justify-content: space-between;">
-								<div class="major1" style="float: right;">
-									<h3><a href="NetworkProj.html" class="link">Languages</a></h3>
+							<article class="langothers" style="display: flex; justify-content: space-between;">
+								<span class="image">
+									<img src="images/pic01.jpg" alt="" />
+								</span>
+								<div class="" style="">
+									<h3><a href="" class="link">Languages</a></h3>
 									<ul class="alt">
-										
 										<ul style="margin-left: 10px;">
 											<li>
 												C & C++
 											</li>
 											<li>C#</li>
 											<li>JavaScript</li>
-
 										</ul>
 									</ul>
 								</div>
-								<div class="major">
-
-								</div>
-								<div class="major2" style="float: left;">
-									<h3><a href="NetworkProj.html" class="link">Others</a></h3>
+								<div class="major1" style="">
+									<h3><a href="" class="link">Others</a></h3>
 									<ul class="alt">
-										
 										<ul style="margin-left: 10px;">
 											<li>
 												Agile Methodologies
 											</li>
 											<li>Automation & Scripting</li>
 											<li>Technical Documentation Writing</li>
-
 										</ul>
 									</ul>
-
 								</div>
 						 </article>
 							<!-- <article>
